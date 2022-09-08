@@ -44,7 +44,7 @@ end
 end
 
 local plr = game:GetService("Players").LocalPlayer
-local Notification = loadstring(game:HttpGet("https://api.irisapp.ca/Scripts/IrisBetterNotifications.lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/megamoeus/HHubmega/master/IrisNotifications"))()
 getgenv().IrisAd = true
 local v3_net, v3_808 = Vector3.new(0, 25.1, 0), Vector3.new(8, 0, 8)
 local function getNetlessVelocity(realPartVelocity)
